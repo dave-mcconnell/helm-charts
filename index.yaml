@@ -3,12 +3,23 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-03-02T10:32:24.802348Z"
+    created: "2020-03-02T23:49:21.970339576Z"
     description: A Helm chart for Kubernetes
     digest: 32435c4c503e9c109c983d8c0f04becf6fc523c78f0d281f3660e4298d1be761
     name: helm-chart-test
     type: application
     urls:
-    - https:///dave-mcconnell.github.io/helm-chart/helm-chart-test-0.1.0.tgz
+    - charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-02T10:32:24.800824Z"
+  test-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-03-02T23:49:21.970827375Z"
+    description: A Helm chart for Kubernetes
+    digest: 8e5c357831b2bd5a7b1d780e34f2aef0b019600ed8e14664fe841b717e671136
+    name: test-chart
+    type: application
+    urls:
+    - charts/test-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-02T23:49:21.969069678Z"
