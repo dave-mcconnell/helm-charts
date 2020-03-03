@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-03-03T11:38:21.985031422Z"
+    created: "2020-03-03T12:16:58.232774247Z"
     description: A Helm chart for Kubernetes
     digest: 32435c4c503e9c109c983d8c0f04becf6fc523c78f0d281f3660e4298d1be761
     name: helm-chart-test
@@ -11,10 +11,21 @@ entries:
     urls:
     - charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
+  microservice-sample:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-03-03T12:16:58.233210346Z"
+    description: A Helm chart for a sample microservice
+    digest: 441671ed9ae182eb60b857b7bae3689581a8124e04b100537f784c3e54c15775
+    name: microservice-sample
+    type: application
+    urls:
+    - charts/microservice-sample-0.1.1.tgz
+    version: 0.1.1
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-03-03T11:38:21.985507424Z"
+    created: "2020-03-03T12:16:58.233583745Z"
     description: A Helm chart for Kubernetes
     digest: c54b3c2913c1cc3bc3997c3cf1d84aabc210357807e660c1e40770801708b5fa
     name: test-chart
@@ -22,4 +33,4 @@ entries:
     urls:
     - charts/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-03T11:38:21.984375919Z"
+generated: "2020-03-03T12:16:58.232067549Z"
